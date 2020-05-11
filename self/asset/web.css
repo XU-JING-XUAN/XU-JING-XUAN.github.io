@@ -1,0 +1,177 @@
+img.banner{
+	width: 100%;
+}
+
+.left{
+	float: left;
+	background-color: white;
+}
+
+h5{
+	font-family:微軟正黑體;
+	font-size:30px;
+
+}
+
+strong{
+	font-family:微軟正黑體;
+	font-size:30px;
+	color:white;
+}
+
+a.hoper{
+	color:black;
+	font-family:微軟正黑體;
+	font-weight: bolder;
+	font-size:30px;
+}
+
+h2{
+	
+	margin:;
+	font-family:微軟正黑體;
+	
+		
+	}
+
+h2.work{
+	text-align:left;
+	font-weight: bold;
+
+}
+ul{
+	margin-left: 30px;
+}
+
+li.title{
+	
+	font-size: 30px;
+	color:green;
+	margin-left:0px
+
+}
+
+li{
+	font-size:20px;
+	font-weight: bold;
+	font-family:"微軟正黑體";
+	margin-left: 20px;
+}
+small{
+	font-size:18px;
+	color:white;
+
+}
+
+span{
+	font-size:30px;
+	font-weight: bolder;
+	font-family: "微軟正黑體";
+	text-align:center;
+
+}
+
+mark{  
+	background-color:#6eb373;
+	font-weight:bold;
+	font-family:微軟正黑體;
+	font-size:30px;
+	color:#82584d;
+}
+
+figcaption{
+	background-color: black;
+}
+
+
+
+.box
+	{
+		margin-bottom: 2em;
+		padding-bottom: 2em;
+		border-bottom: 1px solid rgba(0,0,0,.1);
+	}
+	
+	.box span
+	{
+		margin: 0 15% 0 0;
+		padding: 1em 1em;
+		background: #99674e;
+		display: block;
+		line-height: 3em;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 1.2em;
+		color: #FFF;
+	}
+
+
+
+.parallax {
+  /* 設定背景圖片/居中/不重覆 */
+  background: url("../image/blackbanner.jpg")center center no-repeat;
+
+/* 設定區塊高度 */
+  min-height: 600px;
+  width: 120%;
+
+
+/* 背景自動縮放/固定 */
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.hope{
+	background-color: #AAB482;
+	width: 120%;
+	height:500px;
+
+}
+
+.hopebanner{
+	padding:50px;
+	width: 100%;
+}
+
+span.item3span{
+	font-weight: bolder;
+	font-size:20px;
+	color:grey;
+}
+
+footer{
+		margin:0 ;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+		display: block;
+		background-color:#AAB482;
+		font-size:20px;
+
+}
+
+.col{
+	 width:400px;
+    height:2558px;
+    background-color:grey;
+    background-repeat:no-repeat;
+    
+    background-size:contain;
+    font-size:30px;
+}
+
+.life{
+	margin-left: 12%;
+	margin-bottom: 5%;
+
+}
+
+.con{
+	color:white;
+	padding-top: 80px;
+	font-size: 30px;
+}
