@@ -1,0 +1,126 @@
+#cartitle{
+	margin-top: 2%;
+	padding-right:20%;
+	padding-left:20%;	
+}
+
+#orderbg{
+	
+	margin-top: 2%;
+	padding-right:20%;
+	padding-left:20%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color:#e7eaee;
+
+}
+
+#carsum{
+	margin-left: 70%;
+	margin-right:0%;
+	
+}
+
+#carsumfont{
+	font-family: "微軟正黑體";	
+	color:red;	
+	font-weight: bolder;
+
+}
+
+
+
+#carbtn{
+	margin-left:50%;
+	margin-top:-15%;
+
+	
+}
+
+img{
+	width:50px;
+	height: 50px;
+}
+
+/*footer*/
+footer{
+background-color: black;
+	width: 100%;
+	height:100%;
+	margin-top:40px;
+	color:white;
+
+	
+
+
+}
+#footer{
+	margin:5% 30% 3% 30%;
+}
+
+
+
+.form-control{
+	background-color:black;
+}
+
+/*登入註冊間距調整*/
+.input2{
+	margin-bottom:5%;
+	margin-top:2%;
+	text-align: center;
+}
+
+
+.canvas{
+	padding-left: 20%;
+}
+
+.btn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+#allcar{
+	font-family: "微軟正黑體";
+
+}
+
+h3.yourcar{
+	margin-left:20%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+h3.cartitle{
+	font-size:25px;
+}
+
+
+
+mark {
+background: linear-gradient(#fff 75%, #ffbf7f 0%) !important;
+font-weight:bold; 
+}
+
+span.cango{
+	font-size:20px;
+	color:red;
+	text-align: center;
+	margin-left: 5%;
+
+}
+
+h3.topfont{
+	font-size:20px;
+
+}

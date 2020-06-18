@@ -1,0 +1,117 @@
+.our_img{
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#idea{
+
+margin-bottom: 40px;
+margin-top: 40px;
+height: 250px;
+background-color: #dfba9c;
+
+}
+.yun-intro{
+
+	font-size: 18px;
+		color:#9d5c44;
+		font-weight: bold;
+}
+.yun-intro2{
+
+	font-size: 18px;
+	font-weight: bold;
+
+}
+.yun-intro3{
+	font-size: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
+.hsu-intro{
+
+	font-size: 18px;
+	color:#9d5c44;
+		font-weight: bold;
+}
+.hsu-intro2{
+
+	font-size: 18px;
+	font-weight: bold;
+
+}
+.hsu-intro3{
+
+	text-align: center;
+}
+.liu-intro{
+
+	font-size: 18px;
+	color:#9d5c44;
+		font-weight: bold;
+}
+.liu-intro2{
+
+	font-size: 18px;
+	font-weight: bold;
+
+}
+.liu-intro3{
+
+	text-align: center;
+}
+.yu-intro{
+
+	font-size: 18px;
+	color:#9d5c44;
+		font-weight: bold;
+}
+.yu-intro2{
+
+	font-size: 18px;
+	font-weight: bold;
+
+}
+.yu-intro3{
+
+	text-align: center;
+}
+.oimg{
+
+	height:250px;width:250px;
+}
+.oimg:hover{
+
+transform: scale(1.1, 1.1);
+transition: 0.5s;
+}
+.i1{
+	text-align: left;
+	font-size: 22px;
+	
+	font-family: monospace;
+}
+.i2{
+	font-size: 18px;
+	font-family: Microsoft JhengHei
+}
+.i3{
+	font-size: 18px;
+	font-family: Microsoft JhengHei;
+	color:gray;
+}
+.o-tit{
+
+	text-align: center;
+	font-family: Microsoft JhengHei; 
+	color:#9d5c44; 
+	font-size: 35px;
+	padding-top: 20px;
+	font-weight: bold;
+}
+.o-tit2{
+
+	font-size:17px;
+	font-family:"微軟正黑體";
+}

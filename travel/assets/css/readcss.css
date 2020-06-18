@@ -1,0 +1,78 @@
+/*行程row間隔*/
+#spacing{
+	margin-bottom:5%;
+	margin-top:5%;
+	margin-left:10%;
+	margin-right:10%;
+	
+}
+/*大圖*/
+#bigpic{
+	
+	text-align: center;
+	
+
+}
+
+#bigpicinner{
+	width: 80%;
+	height: 100%;
+}
+/*footer*/
+footer{
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	margin-top:50px;
+	color:white;
+	
+}
+
+#footer{
+	margin:5% 30% 3% 30%;
+}
+
+.form-control{
+	background-color:black;
+}
+
+#readbtn{
+	background-color:black;
+	position:absolute;
+	left:85%;
+	
+	font-family: "微軟正黑體";
+	font-size:20px;
+	width: 120px;
+	height: 50px;
+
+
+}
+/*登入註冊間距調整*/
+.input2{
+	margin-bottom:5%;
+	margin-top:2%;
+	text-align: center;
+}
+
+.d-block{
+	width: 100%;
+	height: 100%;
+
+}
+/*內容文字設定*/
+dl{
+	font-family: "微軟正黑體";
+	font-size:20px;
+}
+
+#readtitle{
+	font-size: 32px;
+	font-family:  "微軟正黑體";
+	font-weight: bold;
+
+}
+
+body.bg{
+	background-color:#f6faf6;
+}

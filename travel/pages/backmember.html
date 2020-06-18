@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>會員管理</title>
+		<style>
+		@import"../assets/css/backinner.css";
+		
+		</style>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<script src="/jquery/2.0.0/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<script src="/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<!--導覽列-->
+			<div class="row">
+				<div class="col-md-12">
+					<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="navbar-toggler-icon"></span>
+					</button> <a class="navbar-brand" href="../index.jsp">Bon Vacances</a>
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="navbar-nav">
+							<li class="nav-item active">
+								<a class="nav-link" href="readpeople.jsp" target="_blank">復古人文之旅 <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="readpark.jsp" target="_blank">主題樂園so fun</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="readold.jsp" target="_blank">銀髮族悠活</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="our.jsp" target="_blank">關於我們</a>
+							</li>
+						</ul>
+						<form class="form-inline">
+							<input class="form-control mr-sm-2" type="text" />
+							<button class="btn btn-light my-2 my-sm-0" type="submit">
+							Search
+							</button>
+						</form>
+						<!--會員-->
+						<ul class="navbar-nav ml-md-auto">
+							
+							<li class="nav-item active">
+								<button type="button" class="btn btn-light" onclick="location.href='testback.html';">
+								管理者介面
+								</button>
+										</li>
+										<li class="nav-item active">
+											<a class="nav-link" href="member.jsp">會員中心<span class="sr-only">(current)</span></a>
+										</li>
+										<li class="nav-item active">
+											<a class="nav-link" href="car.jsp">購物車 <span class="sr-only">(current)</span></a>
+										</li>
+										</ul>
+									</div>
+									<!--會員end-->
+								</nav>
+								<!--未登入導覽列end-->
+								</div>
+							</div>
+							<!--導覽列end-->
+							
+							
+						<!--會員後台-->
+						<div class="container-fluid">	
+								<div class="row">
+									<div class="col-md-12">
+										<!--會員查詢-->
+										<div class="jumbotron">
+											<h2>
+											Bon vacanes會員查詢
+											</h2>
+											<p>
+												會員姓名:
+												<br>
+												帳號:
+												<br>
+												密碼:
+												<br>
+												生日:
+												<br>
+												性別:
+												<br>
+												手機:
+												<br>
+												地址:
+												<br>
+												電子郵件:
+												<br>
+												<hr>
+
+												會員姓名:
+												<br>
+												帳號:
+												<br>
+												密碼:
+												<br>
+												生日:
+												<br>
+												性別:
+												<br>
+												手機:
+												<br>
+												地址:
+												<br>
+												電子郵件:
+												<br>
+												<hr>
+
+
+											</p>
+											<p>
+												<a class="btn btn-primary btn-large" href="#">重新整理</a>
+											</p>
+										</div>
+										<!--會員查詢end-->
+
+										<!--會員刪除-->
+										<div class="jumbotron">
+											<h2>
+											Bon vacanes會員異動
+											</h2>
+											<p>
+												會員序號:
+												<br>
+												會員姓名:
+												<br>												
+											</p>
+											<p>
+												<a class="btn btn-primary btn-large" href="#">刪除該會員</a>
+											</p>
+											<hr>
+											<p>
+												會員序號:
+												<br>
+												會員姓名:
+												<br>												
+											</p>
+											<p>
+												<a class="btn btn-primary btn-large" href="#">刪除該會員</a>
+											</p>
+											<hr>
+										</div>
+										<!--會員刪除end-->
+									</div>
+								</div>
+							</div>
+							<!--會員後台end-->
+							
+						</div>
+						<!--container整個頁面 end-->
+					</body>
+				</html>

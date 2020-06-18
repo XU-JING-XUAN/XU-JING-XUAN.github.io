@@ -1,0 +1,10 @@
+#font{
+	font-family: "微軟正黑體";
+}
+
+#title{	font-weight: bolder;
+	font-size: 40px;
+}
+p{
+	font-size:20px;
+}
