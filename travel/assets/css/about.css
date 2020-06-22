@@ -1,0 +1,74 @@
+.our_img{
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#idea{
+
+margin-bottom: 40px;
+margin-top: 70px;
+height: 200px;
+
+
+}
+.yun-intro{
+
+	font-size: 18px;
+}
+.yun-intro2{
+
+	font-size: 18px;
+}
+.yun-intro3{
+	font-size: 20px;
+	margin-top: 20px;
+}
+.hsu-intro{
+
+	font-size: 18px;
+}
+.hsu-intro2{
+
+	font-size: 18px;
+}
+.liu-intro{
+
+	font-size: 18px;
+}
+.liu-intro2{
+
+	font-size: 18px;
+}
+.yu-intro{
+
+	font-size: 18px;
+}
+.yu-intro2{
+
+	font-size: 18px;
+}
+.oimg{
+
+	height:250px;width:250px;
+}
+.oimg:hover{
+
+transform: scale(1.1, 1.1);
+transition: 0.5s;
+}
+.i1{
+	text-align: left;
+	font-size: 22px;
+	
+	font-family: monospace;
+}
+.i2{
+	font-size: 18px;
+	font-family: Microsoft JhengHei
+}
+.i3{
+	font-size: 18px;
+	font-family: Microsoft JhengHei;
+	color:gray;
+}

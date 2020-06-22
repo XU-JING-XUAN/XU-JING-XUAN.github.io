@@ -1,0 +1,136 @@
+footer{
+
+	text-align: center;
+}
+.i-img{
+
+	text-align: center;
+}
+.i-img:hover{
+
+	transform: scale(1.5, 1.5);
+transition: 0.5s;
+}
+h3{
+padding-bottom: 20px;
+padding-top: 20px;
+}
+.col-md-3{
+
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 30px;
+}
+.col-md-4{
+
+	font-family: monospace;
+
+}
+
+.text-center1:hover{
+
+	color:gray;
+	font-size: 40px;
+	transition: 0.5s;
+}
+.text-center2:hover{
+
+	color:gray;
+	font-size: 40px;
+	transition: 0.5s;
+}
+.text-center1{
+
+	text-align: center;
+}
+.text-center2{
+	font-size: 30px;
+
+	text-align: center;
+}
+.rank-text{
+font-family: Microsoft JhengHei;
+	font-size: 20px;
+}
+.nav-link{
+
+	font-family: Microsoft JhengHei;
+}
+.tit{
+
+	text-align: center;font-family: monospace;font-size: 18px;
+}
+
+.intro{
+
+	height:200px;
+	padding-top: 20px;
+}
+.co{
+
+	height:300px;
+}
+.toTop-arrow {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 18px;
+	height: 5px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.btnstyle:hover{
+font-size: 25px;
+color:gray;
+transition: 0.5s;
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.5rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
+.input2{
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*footer*/
+footer{
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	margin-top:50px;
+	color:white;
+	
+}
+
+#blackfooter{
+	margin:5% 30% 3% 30%;
+}
+
+.form-control{
+	background-color:black;
+}
+.rank{
+
+	text-align: center;
+}

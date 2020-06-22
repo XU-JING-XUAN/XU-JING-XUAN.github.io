@@ -106,25 +106,100 @@
 						<!--商品查詢刪除end-->
 						
 						<!--商品新增-->
+						<form method="post" action="addproduct.jsp">
 						<div class="jumbotron">
 							<h2 id="title">
 							商品新增
 							</h2>
 							<p>
 								商品主題歸類:<br>
-								<select class="form-control" id="sel1" name="date">
-									<option value="people">復古人文之旅</option>
-									<option value="park">主題樂園so fun</option>
-									<option value="old">銀髮族樂活旅</option>
+								<select class="form-control" id="sel1" name="category">
+									<option value="readpeople">復古人文之旅</option>
+									<option value="readpark">主題樂園so fun</option>
+									<option value="readold">銀髮族樂活旅</option>
 									
 								</select>
 								<br>
+								新增之商品貨號:
+								<input type="text" name="number" class="form-control" placeholder="ex:A7474">&nbsp;&nbsp;
+								<br>
+								新增之商品代碼:
+								<input type="text" name="no" class="form-control" placeholder="ex:tainan">&nbsp;&nbsp;
+								<br>
 								新增之商品名稱:
-								
-								<input type="text" class="form-control" placeholder="標題有趣能更增加旅人的出遊動機">&nbsp;&nbsp;
+								<input type="text" name="name" class="form-control" placeholder="標題有趣能更增加旅人的出遊動機">&nbsp;&nbsp;
+								<br>
+								新增之商品價格:
+								<input type="text" name="price" class="form-control" placeholder="ex:1200">&nbsp;&nbsp;
+								<br>
+								新增之商品庫存:
+								<input type="text" name="stock" class="form-control" placeholder="ex:20">&nbsp;&nbsp;
 								<br>
 								新增之商品內容:
-								<textarea class="form-control" rows="5" id="comment"></textarea>
+								<textarea  name="produce" class="form-control" rows="5" id="comment"></textarea>
+								<br>
+								新增之商品景點概述:
+								<textarea name="infor" class="form-control" rows="5" id="comment"></textarea>
+								<br>
+								新增之商品地點:
+								<input type="text" name="location" class="form-control" placeholder="ex:彰化鹿港">&nbsp;&nbsp;
+								<br>
+								新增之商品時間:
+								<input type="text" name="time" class="form-control" placeholder="ex:9:00~20:00">&nbsp;&nbsp;
+								<br>
+								新增之商品住房:
+								<input type="text" name="room" class="form-control" placeholder="ex:圓山大飯店">&nbsp;&nbsp;
+								<br>
+								新增之商品副標題:
+								<input type="text" name="name2" class="form-control" placeholder="ex:花東縱谷">&nbsp;&nbsp;
+								<br>
+								新增之商品注意事項1:
+								<input type="text" name="note1" class="form-control" placeholder="第一項">&nbsp;&nbsp;
+								<br>
+								新增之商品注意事項2:
+								<input type="text" name="note2" class="form-control" placeholder="第二項">&nbsp;&nbsp;
+								<br>
+								新增之商品注意事項3:
+								<input type="text" name="note3" class="form-control" placeholder="第三項">&nbsp;&nbsp;
+								<br>
+								新增之商品注意事項4:
+								<input type="text" name="note4" class="form-control" placeholder="第四項">&nbsp;&nbsp;
+								<br>
+								新增之商品注意事項5:
+								<input type="text" name="note5" class="form-control" placeholder="第五項">&nbsp;&nbsp;
+								<br>
+								新增之商品注意事項6:
+								<input type="text" name="note6" class="form-control" placeholder="第六項">&nbsp;&nbsp;
+								<br>
+								新增之商品注意事項7:
+								<input type="text" name="note7" class="form-control" placeholder="第七項">&nbsp;&nbsp;
+								<br>
+								新增之商品注意事項8:
+								<input type="text" name="note8" class="form-control" placeholder="第八項">&nbsp;&nbsp;
+								<br>
+								新增之商品出發檔期1:
+								<input type="text" name="date1" class="form-control" placeholder="ex:2020/06/21">&nbsp;&nbsp;
+								<br>
+								新增之商品出發檔期2:
+								<input type="text" name="date2" class="form-control" placeholder="ex:2020/06/21">&nbsp;&nbsp;
+								<br>
+								新增之商品出發檔期3:
+								<input type="text" name="date3" class="form-control" placeholder="ex:2020/06/21">&nbsp;&nbsp;
+								<br>
+								新增之商品出發檔期4:
+								<input type="text" name="date4" class="form-control" placeholder="ex:2020/06/21">&nbsp;&nbsp;
+								<br>
+								新增之商品交通方式1:
+								<input type="text" name="traffic1" class="form-control" placeholder="ex:火車">&nbsp;&nbsp;
+								<br>
+								新增之商品交通方式2:
+								<input type="text" name="traffic2" class="form-control" placeholder="ex:火車">&nbsp;&nbsp;
+								<br>
+								新增之商品交通方式3:
+								<input type="text" name="traffic3" class="form-control" placeholder="ex:火車">&nbsp;&nbsp;
+								<br>
+								新增之商品交通方式4:
+								<input type="text" name="traffic4" class="form-control" placeholder="ex:火車">&nbsp;&nbsp;
 								<br>
 								新增商品之圖片(注意!!僅能上傳圖片格式)
 								<Form Method="Post" Action="test.asp" Enctype="Multipart/Form-Data">
@@ -133,10 +208,11 @@
 									<Input Type="Reset" value="清除重選" name="#">
 								</Form>
 								<br>
-								<a class="btn btn-primary btn-large" href="#">將全新的商品上架!</a>
+								<button type="submit" class="btn btn-primary btn-large">將全新的商品上架!</button>
 							</p>
 							
 						</div>
+						</form>
 						<!--商品新增end-->
 					</div>
 				</div>
